@@ -9,6 +9,12 @@ body{
     flex-direction: column;
 }
 
+.footer{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: rgba(112, 107, 173, 0.8);
+}
+
 .image{
     width: 370px;
     margin-top: 50px;
@@ -20,6 +26,6 @@ body{
     }
     .image{
         width: 100%;
-        
+
     }
 }

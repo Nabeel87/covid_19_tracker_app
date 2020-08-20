@@ -2,6 +2,8 @@ import React from 'react';
 import {Cards, Chart, CountryPicker} from './components';
 import {fetchData} from './api';
 
+import Rights from './Rights';
+
 import coronoImage from './images/image.png';
 
 const styles = require("./App.module.css");
@@ -34,6 +36,7 @@ class App extends React.Component{
                 <Cards data = {data} />
                 <CountryPicker handleCountryChange ={this.handleCountryChange} />
                 <Chart data = {data} country={country}/>
+                <Rights />
             </div>
         )
     }
